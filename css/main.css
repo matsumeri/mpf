@@ -1,0 +1,286 @@
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 50px;
+  padding: 15px;
+  font-size: 10px;
+  z-index: 1000;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.whatsapp-button:hover {
+  background-color: #22b157;
+  text-decoration: none;
+}
+
+.whatsapp-icon {
+  font-size: 30px;
+}
+
+body {
+  background-color: #ffe9f9 !important;
+}
+
+.owl {
+  border-radius: 15px; /* Para bordes redondeados */
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5); /* Sombra difuminada en las orillas */
+}
+
+.fuente-uno {
+  font-family: "Daydream", sans-serif;
+}
+
+.fuente-dos {
+  font-family: "Gladiesky", sans-serif;
+}
+
+.fuente-tres {
+  font-family: "Mocaroni", sans-serif;
+}
+
+.fuente-cuatro {
+  font-family: "Thatch", sans-serif;
+}
+
+.fuente-cinco {
+  font-family: "Nattalea", sans-serif;
+}
+
+.revert-layer {
+  width: 500px;
+  height: 440px;
+}
+
+.messenger-button {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  background-color: #0084ff;
+  color: white;
+  border-radius: 50px;
+  padding: 12px 17px;
+  font-size: 23px;
+  text-decoration: none;
+  z-index: 100;
+}
+.messenger-icon {
+  margin-right: 10px;
+}
+
+.lh2 {
+  line-height: 2em;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.colormain {
+  color: #ff97e9;
+}
+
+.panel-default {
+  border-color: #ff97e9;
+}
+
+.panel-heading {
+  padding: 20px 15px;
+}
+
+a,
+a:focus,
+a:hover {
+  color: #ff97e9;
+  text-decoration: none;
+}
+
+.shadow-effect {
+  background: #fff;
+  padding: 5px;
+  border-radius: 4px;
+  text-align: center;
+  border: 1px solid #ececec;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.1), 0 15px 12px rgba(0, 0, 0, 0.02);
+}
+#customers-testimonials .shadow-effect p {
+  font-family: inherit;
+  font-size: 17px;
+  line-height: 1.5;
+  margin: 0 0 17px 0;
+  font-weight: 300;
+}
+.testimonial-name {
+  margin: -17px auto 0;
+  display: table;
+  width: auto;
+  background: #3190e7;
+  padding: 9px 35px;
+  border-radius: 12px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 9px 18px rgba(0, 0, 0, 0.12), 0 5px 7px rgba(0, 0, 0, 0.05);
+}
+#customers-testimonials .item {
+  text-align: center;
+  padding: 50px;
+  margin-bottom: 80px;
+  opacity: 0.2;
+  -webkit-transform: scale3d(0.8, 0.8, 1);
+  transform: scale3d(0.8, 0.8, 1);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#customers-testimonials .owl-item.active.center .item {
+  opacity: 1;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+}
+.owl-carousel .owl-item img {
+  transform-style: preserve-3d;
+  max-width: 100%;
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot.active span,
+#customers-testimonials.owl-carousel .owl-dots .owl-dot:hover span {
+  background: #ff97e9;;
+  transform: translate3d(0px, -50%, 0px) scale(0.7);
+}
+#customers-testimonials.owl-carousel .owl-dots {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot {
+  display: inline-block;
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot span {
+  background: #ff97e9;;
+  display: inline-block;
+  height: 20px;
+  margin: 0 2px 5px;
+  transform: translate3d(0px, -50%, 0px) scale(0.3);
+  transform-origin: 50% 50% 0;
+  transition: all 250ms ease-out 0s;
+  width: 20px;
+}
+
+#testimonios {
+    background: #f8f8f8;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.navbar-brand:hover {
+    color: #ff97e9!important;
+    text-decoration: none;
+}
+
+.navbar-default .navbar-brand {
+
+    font-size: 35px!important;
+
+}
+
+#resultado {
+  font-weight: bold;
+  color: #333;
+}
+
+.pregnancycalc{
+  background: #ffffff;
+  padding: 2%;
+}
+
+
+.btn-primary {
+  color: #ff97e9!important;
+  background-color: #ffffff!important;
+  border-color: #ff97e9!important;
+}
+
+.btn-primary:hover {
+  color: #ffffff!important;
+  background-color: #ff97e9!important;
+  border-color: #ff97e9!important;
+}
+
+#fechaFUM{
+  line-height: 100px;
+  border-color: #ff97e9;
+  border-radius: 5px;
+}
+
+.hvw{
+  height: 100px;
+}
+
+.xsize{
+  font-size: x-large;
+}
+
+footer {
+  background: #000000!important;
+  color: #ececec;
+}
+
+.pc-center{
+  text-align: center;
+}
+
+/* Estilo del modal */
+.modal-content {
+  border-radius: 8px;
+  background-color: #fff0f5; /* Un suave color rosado */
+  border: none;
+}
+
+.modal-header, .modal-footer {
+  border: none;
+  background-color: #ffe4e1; /* Otro tono rosado */
+}
+
+.modal-title {
+  font-family: 'Georgia', serif;
+  color: #b03060; /* Un tono magenta elegante */
+}
+
+.modal-body p {
+  font-size: 16px;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+.btn-primary {
+  background-color: #ff69b4;
+  border-color: #ff69b4;
+  color: white;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #ff1493;
+  border-color: #ff1493;
+}
+
+.btn-default {
+  color: #b03060;
+  border-color: #ffe4e1;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+  background-color: #ffe4e1;
+}
+
+#divider{
+  padding-top: 50px!important;
+  padding-bottom: 50px!important;
+  text-align: -webkit-center!important;
+}
+
+.envios {
+  width: 100px!important;
+}
